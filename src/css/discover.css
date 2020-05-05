@@ -1,0 +1,53 @@
+.discover-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.covers-image {
+  width: 30vw;
+  height: auto;
+  max-width: 350px;
+  margin-left: 2rem;
+}
+
+.icon-section {
+  display: flex;
+  margin: 2rem 0;
+}
+
+@media (max-width: 800px) {
+  .discover-main-section {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .call-to-action {
+    text-align: center;
+  }
+
+  .icon-section {
+    justify-content: center;
+  }
+
+  .covers-image {
+    margin-top: 2em;
+    width: auto;
+    height: 30vh;
+  }
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001021;
+  padding: 1em 2em;
+  margin-right: 2em;
+}
+
+.icon img {
+  margin-bottom: 1em;
+}
